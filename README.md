@@ -9,6 +9,6 @@ This repository contains the code for the Hera congestion control protocol, a ne
 - Root privileges  
 
 ## How to run
-1, Create kernel module: `make`
+1. Create kernel module: `make`
 2. Load module: `sudo insmod tcp_hera.ko`
 3. Enable Hera as current protocol: `sudo sysctl -w net.ipv4.tcp_congestion_control=hera`
